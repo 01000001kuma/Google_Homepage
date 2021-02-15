@@ -1,32 +1,28 @@
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
-    background: #fff;
-    display: block;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    min-width: 400px;
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+  background: #fff;
+  display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-width: 400px;
 }
 
-
-
-.pic{
-    height: 46px;
-    width: 46px;
-    border-radius: 45px;
+.pic {
+  height: 46px;
+  width: 46px;
+  border-radius: 45px;
 }
 
-
-#logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 150px;
-    max-height: 290px;
-    height: calc(100% - 560px);
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
 }
-
