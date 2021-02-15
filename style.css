@@ -12,6 +12,12 @@ body {
   min-width: 400px;
 }
 
+#navbar{
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+}
+
 .pic {
   height: 46px;
   width: 46px;
