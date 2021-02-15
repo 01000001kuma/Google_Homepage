@@ -13,8 +13,10 @@ body {
 #navbar{
     background-color: #fff;
     font-size: 13px;
-    height: 60px;
+    height: 48px;
     width: 860;
+    
+    
 
 }
 
@@ -22,16 +24,19 @@ a{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     font-size: 13px;
+    
 }
+    
 
 a:hover{
     text-decoration: underline;
     color: rgba(0,0,0,0.87);
+    cursor: pointer;
 }
 
 .pic {
-  height: 46px;
-  width: 46px;
+  height: 32px;
+  width: 32px;
   border-radius: 45px;
 }
 
@@ -50,8 +55,67 @@ a:hover{
     margin-top: 280px;
     display: block;
     bottom: 0;
-    margin-top: 200px;
+    margin-top: 210px;
+       
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+.searchbar{
+    flex: 1;
+    display: flex;
+    width: 582px;
+    height: 46px;
+    border-radius: 25px;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
     
     
 }
 
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    height: 20px;
+    width: 20px;
+    margin-left: 400px;
+  }
+
+  .clear-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 18px;
+    height: 24px;
+    margin-right: 400px;
+    
+  }
+
+/*
+
+#search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.searchbar{
+    flex: 1;
+    display: flex;
+    width: 572px;
+    height: 44px;
+    border-radius: 25px;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    background: url (http://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png) no-repeat left
+    
+}
+
+*/
