@@ -80,6 +80,16 @@ a:hover{
        
 }
 
+.searchbar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+
+}
+
+.searchbar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
 .search-icon {
     position: absolute;
     top: 10px;
