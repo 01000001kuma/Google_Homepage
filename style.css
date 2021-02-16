@@ -251,6 +251,21 @@ a:hover{
 
 }
 
+@media only screen and (max-width: 14400px){
+    .fo1{
+        margin-left: 10px;
+    }
+    .foa{
+        margin-left: 680px;
+    }
+    .clear-icon{
+        margin-right: 447px;
+        height: 20px;
+        margin-top: 3px;
+    }
+
+}
+
 @media only screen and (max-width: 1024px){
     .fo1{
         margin-left: 100px;
