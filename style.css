@@ -206,6 +206,7 @@ a:hover{
     position: fixed;
     bottom: 0;
     width: 100%;
+    
 }
 
 
@@ -250,19 +251,19 @@ a:hover{
 
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 768px){
     .fo1{
-        margin-left: 100px;
+        margin-left: 0px;
         fo
     }
     .foa{
-        margin-left: 85px;
-        font-size: 8px;
+        margin-left: 50px;
+        
     }
     .clear-icon{
         margin-right: 115px;
         height: 20px;
         margin-top: 3px;
     }
-
+   
 }
