@@ -222,14 +222,6 @@ a:hover{
 
 }
 
-p.fo{
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    font-size: 15px;
-    color: rgba(0,0,0,.54);
-    margin: opx;
-}
-
 .one{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
@@ -238,6 +230,39 @@ p.fo{
 }
 
 .foa{
+    margin-left: 728px;
+    padding: 15px 30px;
 
+}
+
+@media only screen and (max-width: 1024px){
+    .fo1{
+        margin-left: 100px;
+    }
+    .foa{
+        margin-left: 85px;
+    }
+    .clear-icon{
+        margin-right: 242px;
+        height: 20px;
+        margin-top: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+    .fo1{
+        margin-left: 100px;
+        fo
+    }
+    .foa{
+        margin-left: 85px;
+        font-size: 8px;
+    }
+    .clear-icon{
+        margin-right: 115px;
+        height: 20px;
+        margin-top: 3px;
+    }
 
 }
