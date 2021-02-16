@@ -8,27 +8,42 @@ body {
   background: #fff;
   display: block;
   min-width: 400px;
+
+}
+
+.navbar{
+    padding: 6px;
+}
+
+.container-fluid{
+    height: 48px;
+}
+
+.navbar-brand underline-hover{
+
 }
 
 #navbar{
     background-color: #fff;
     font-size: 13px;
     height: 48px;
-    width: 860;
-    
-    
+    width: 860; 
 
 }
 
 .navbar-brand{
     font-size: 13px;
+
 }
 
 .grid{
     height:23px;
     position:relative;
     bottom:4px;
-  }
+    margin-right: 10px;
+    margin-top: 9px;
+
+}
 
 a{
     color: rgba(0,0,0,0.87);
@@ -36,19 +51,23 @@ a{
     font-size: 13px;
     padding: 10px 10px;
     
+    
 }
     
-
 a:hover{
     text-decoration: underline;
     color: rgba(0,0,0,0.87);
     cursor: pointer;
+
 }
 
 .pic {
   height: 32px;
   width: 32px;
   border-radius: 45px;
+  margin-right: -10px;
+  
+
 }
 
 #logo {
@@ -58,7 +77,6 @@ a:hover{
     align-items: center;
     width: 100%;
     height: 290px;
-
 
 }
 
